@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxJqueryJsonOperation", "AjaxJqueryJsonOperation.csproj", "{ECCC2829-8319-456B-9EEE-2168454D06BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCC2829-8319-456B-9EEE-2168454D06BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCC2829-8319-456B-9EEE-2168454D06BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCC2829-8319-456B-9EEE-2168454D06BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCC2829-8319-456B-9EEE-2168454D06BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A63F6A4-70E8-4D39-B9C0-D1BA3C024413}
+	EndGlobalSection
+EndGlobal

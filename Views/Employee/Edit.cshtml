@@ -1,0 +1,16 @@
+﻿@model AjaxJqueryJsonOperation.Models.Employee
+
+
+
+    <form id="EmployeeDetails">
+
+        <fieldset>
+
+            <legend></legend>
+            <input hidden name="EmployeeID" id="EmployeeID" value="@Model.EmployeeID" />
+            Employee Name:<input type="text" value="@Model.EmployeeName" name="EmployeeName" id="EmployeeName" class="form-control" />
+            Employee Address:<input type="text"  value="@Model.EmployeeAddress" name="EmployeeAddress" id="EmployeeAddress" class="form-control" />
+            Employee Salary:<input type="text" value="@Model.EmployeeSalary"  name="EmployeeSalary" id="EmployeeSalary" class="form-control" />
+            <input type="button" name="BtnSubmit" class="btn btn-default" onclick="UpdateEmployee()" value="Save" />
+        </fieldset>
+    </form>
